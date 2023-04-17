@@ -1,0 +1,28 @@
+module.exports = {
+    parser: '@typescript-eslint/parser',
+    extends: [
+        'plugin:prettier/recommended',
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
+    ],
+    plugins: ['@typescript-eslint', 'prettier'],
+    rules: {
+        '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/ban-types': 'off',
+        '@typescript-eslint/no-empty-function': 'warn',
+        'object-curly-newline': 'off',
+        'import/extensions': 'off',
+        'import/no-unresolved': 'off',
+        indent: 'off',
+        'import/prefer-default-export': 'off',
+        'no-console': 'off',
+        'class-methods-use-this': 'off',
+        'linebreak-style': 'off',
+        'consistent-return': 'off',
+        'comma-dangle': 'off',
+        'implicit-arrow-linebreak': 'off',
+        'function-paren-newline': 'off',
+    },
+};
